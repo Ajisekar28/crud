@@ -1,0 +1,57 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+margin: 50px auto;
+max-width: 500px;
+background-color: #fff;
+border: 1px solid #ccc;
+}
+
+.leftCon {
+flex: 1;
+margin-right: 20px;
+text-align: center;
+margin-left :10px;
+}
+
+.rightCon {
+flex: 2;
+margin-left :10px;
+}
+
+.detail {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+
+
+img {
+border: 1px solid #ccc;
+padding: 5px;
+max-width: 100%;
+}
